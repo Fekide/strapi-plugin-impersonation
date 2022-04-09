@@ -13,11 +13,13 @@
     "@strapi/strapi": "^4.0.0"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Felix Haase",
+    "email": "felix.haase@feki.de"
   },
   "maintainers": [
     {
-      "name": "A Strapi developer"
+      "name": "Felix Haase",
+      "email": "felix.haase@feki.de"
     }
   ],
   "engines": {
@@ -27,5 +29,17 @@
   "license": "MIT",
   "devDependencies": {
     "prettier": "^2.6.2"
+  },
+  "keywords": [
+    "strapi",
+    "plugin",
+    "impersonation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fekide/strapi-plugin-impersonation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Fekide/strapi-plugin-impersonation/issues"
   }
 }
