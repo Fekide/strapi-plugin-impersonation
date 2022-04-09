@@ -1,0 +1,11 @@
+{
+  "errors.not-initialized": "Les paramètres d'impersonnation ne sont pas encore initialisés",
+  "impersonation.settings-link": "Plugin d'impersonnation",
+  "settings.title": "Impersonnation",
+  "settings.description": "Configure the settings for the Impersonation plugin",
+  "settings.baseURL.label": "Configurer les paramètres du plugin d'impersonnation",
+  "settings.baseURL.hint": "Une page ou une API sur votre site qui lit le jeton à partir d'un paramètre URL.",
+  "settings.security-warning": "Ce plugin donne à un utilisateur administrateur autorisé un accès complet à tous les comptes utilisateurs. Utilisez-le avec précaution!",
+  "impersonate-button.label": "Usurpe l'identité",
+  "settings.successful-update": "Les paramètres ont été mis à jour avec succès!"
+}

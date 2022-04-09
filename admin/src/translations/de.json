@@ -1,0 +1,11 @@
+{
+  "errors.not-initialized": "Impersonation-Einstellungen sind noch nicht initialisiert",
+  "impersonation.settings-link": "Impersonation Plugin",
+  "settings.title": "Impersonation",
+  "settings.description": "Konfigurieren Sie die Einstellungen für das Impersonation-Plugin",
+  "settings.baseURL.label": "Basis-URL für Impersonation",
+  "settings.baseURL.hint": "Eine Seite oder API auf Ihrer Website, die das Token aus einem URL-Parameter liest",
+  "settings.security-warning": "Dieses Plugin gibt einem autorisierten Administrator vollen Zugriff auf alle Benutzerkonten. Verwenden Sie es mit Vorsicht!",
+  "impersonate-button.label": "Nutzer impersonieren",
+  "settings.successful-update": "Einstellungen erfolgreich aktualisiert!"
+}

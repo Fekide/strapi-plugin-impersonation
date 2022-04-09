@@ -1,0 +1,31 @@
+{
+  "name": "strapi-plugin-impersonation",
+  "version": "0.0.0",
+  "description": "A plugin to enable impersonation in strapi",
+  "strapi": {
+    "name": "Impersonation",
+    "description": "Impersonate users from the users-permissions plugin in the frontend (Use at your own risk, better not in production environment)",
+    "kind": "plugin"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "@strapi/plugin-users-permissions": "^4.0.0",
+    "@strapi/strapi": "^4.0.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "maintainers": [
+    {
+      "name": "A Strapi developer"
+    }
+  ],
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.6.2"
+  }
+}
