@@ -1,7 +1,2 @@
-import axiosInstance from './axiosInstance'
-import getTrad from './getTrad'
-
-module.exports = {
-  axiosInstance,
-  getTrad,
-}
+export { default as axiosInstance } from './axiosInstance'
+export { default as getTrad } from './getTrad'
