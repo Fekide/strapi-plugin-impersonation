@@ -3,7 +3,7 @@
   "version": "0.1.1",
   "description": "A plugin to enable impersonation in strapi",
   "strapi": {
-    "name": "Impersonation",
+    "name": "impersonation",
     "description": "Impersonate users from the users-permissions plugin in the frontend (Use at your own risk, better not in production environment)",
     "kind": "plugin"
   },
