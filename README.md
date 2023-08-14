@@ -7,9 +7,6 @@
   <a href="https://www.npmjs.org/package/strapi-plugin-impersonation">
     <img src="https://img.shields.io/npm/dm/strapi-plugin-impersonation.svg" alt="Monthly download on NPM" />
   </a>
-  <a href="https://github.com/Fekide/strapi-plugin-impersonation/actions">
-    <img src="https://img.shields.io/github/workflow/status/Fekide/strapi-plugin-impersonation/Test" alt="Build" />
-  </a>
 </div>
 
 > This plugin allows all admin users with sufficient permissions to impersonate any user on your site! So use it with caution!
