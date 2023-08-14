@@ -1,0 +1,23 @@
+name: Release
+on:
+  release:
+    types: [published]
+
+jobs:
+  release:
+    name: Release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Node.js 16
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+
+      - name: Run install
+        run: yarn install --frozen-lockfile
+      - name: Publish to npm
+        run: yarn publish --new-version $GITHUB_REF_NAME
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
